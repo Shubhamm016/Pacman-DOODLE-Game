@@ -1,57 +1,50 @@
-# Pacman DOODLE Game
 
-Welcome to the Pacman DOODLE Game! This is a simple and fun Pacman game built from scratch using Java and Java Swing. It captures the classic arcade feel with easy controls and straightforward gameplay.
 
-## What’s Inside?
+Welcome to the Pacman DOODLE Game! This project is a simple Pacman game built using Java and Java Swing. It features basic gameplay mechanics, including player control, maze walls, food dots, ghosts with simple movement, scoring, lives, and game over conditions.
+
+## Project Structure
 
 - **Main.java**  
-  This is where the game starts. It sets up the game window and kicks off the game.
+  The entry point of the game. It sets up the game window and starts the game.
 
 - **GamePanel.java**  
-  The heart of the game. It handles drawing everything on the screen, updating the game state, and listening for your keyboard input.
+  Handles rendering, game logic, user input, and game updates.
 
 - **Pacman.java**  
-  This class represents Pacman, the player. It keeps track of where Pacman is and how he moves.
+  Represents the player character, handling movement and collision.
 
 - **Ghost.java**  
-  These are the enemies! They move around the maze randomly and try to catch Pacman.
+  Represents enemy ghosts that move randomly and cause the player to lose lives on collision.
 
 - **Wall.java**  
-  The maze walls that block Pacman and ghosts from moving freely.
+  Represents maze walls that restrict movement.
 
 - **Food.java**  
-  The little dots Pacman eats to score points.
+  Represents food dots scattered throughout the maze for Pacman to collect.
 
-## How to Play
+## Functionalities
 
-- Use the arrow keys to move Pacman around the maze.
-- Eat all the food dots to increase your score.
-- Avoid the ghosts — if they catch you, you lose a life.
-- You start with 3 lives. The game ends when you lose them all.
+- Game window with fixed size.
+- Arrow key controls for Pacman.
+- Maze walls and obstacles.
+- Food dots to collect and increase score.
+- Ghost enemies with simple random movement.
+- Score and lives display.
+- Game over message when lives reach zero.
 
-## Running the Game
+## How to Run
 
-1. Make sure you have Java installed on your computer.
-2. Open a terminal or command prompt in the game folder.
-3. Compile the game by running:
+1. Ensure Java JDK is installed.
+2. Compile all Java files:
    ```
    javac *.java
    ```
-4. Start playing by running:
+3. Run the game:
    ```
    java Main
    ```
 
-## What’s Next?
-
-This is a basic version of Pacman, but there’s plenty of room to grow! Some ideas for future updates:
-
-- Smarter ghosts with better AI.
-- Sound effects and background music.
-- Multiple levels with increasing difficulty.
-- A start menu and pause feature.
-
-Thanks for checking out the Pacman DOODLE Game! Have fun playing and feel free to contribute or suggest improvements.
+Enjoy playing the Pacman DOODLE Game!
 
 ---
 Created by Shubhamm016
